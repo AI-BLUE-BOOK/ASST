@@ -86,12 +86,12 @@ DATABASES = {
         {
             'ENGINE': 'djongo',
             'NAME': 'demo_2',  # Ensure this matches your MongoDB database name
-            'CLIENT': {
-            'host': 'mongodb+srv://capega4857:Gotohell@cluster0.1h7kh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
-            'username': 'capega4857',  # MongoDB Atlas username
-            'password': 'Gotohell',  # MongoDB Atlas password
-            'ssl': True,  # If your MongoDB Atlas cluster requires SSL/TLS
-        }
+           # 'CLIENT': {
+           # 'host': 'mongodb+srv://capega4857:Gotohell@cluster0.1h7kh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+           # 'username': 'capega4857',  # MongoDB Atlas username
+           # 'password': 'Gotohell',  # MongoDB Atlas password
+           # 'ssl': True,  # If your MongoDB Atlas cluster requires SSL/TLS
+       # }
         }
 }
 
@@ -135,7 +135,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATIC_DIRS = os.path.join(BASE_DIR, 'static')
+STATIC_DIRS = os.path.join(BASE_DIR, 'static')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
