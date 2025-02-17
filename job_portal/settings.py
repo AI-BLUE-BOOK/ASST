@@ -86,6 +86,12 @@ DATABASES = {
         {
             'ENGINE': 'djongo',
             'NAME': 'demo_2',  # Ensure this matches your MongoDB database name
+            'CLIENT': {
+            'host': 'mongodb+srv://capega4857:Gotohell@cluster0.1h7kh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+            'username': 'capega4857',  # MongoDB Atlas username
+            'password': 'Gotohell',  # MongoDB Atlas password
+            'ssl': True,  # If your MongoDB Atlas cluster requires SSL/TLS
+        }
         }
 }
 
