@@ -4,7 +4,7 @@ WEBSITE IS RUNNING LIVE AT https://ast-577j.onrender.com/admin/.
 
 USERNAME : ok, PASSWORD : ok
 ![image alt](https://github.com/AI-BLUE-BOOK/ASST/blob/main/image1.png?raw=true)
-![image alt(https://github.com/AI-BLUE-BOOK/ASST/blob/main/image2.png?raw=true)
+![image alt](https://github.com/AI-BLUE-BOOK/ASST/blob/main/image2.png?raw=true)
 
 CLICK ON JOBS NOT JOB TO SEE LIST OF JOBS
 
